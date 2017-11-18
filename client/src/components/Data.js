@@ -5,7 +5,7 @@ const Data = () => {
 
   return (
     <div className="container">
-      <div className="data-container">
+      <div className="data-container border">
         Data container
         <Data1 />
       </div>

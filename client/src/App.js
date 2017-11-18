@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Data from './components/Data'
 import Header from './components/Header'
 import Dashboard from './components/Dashboard'
 import LandingPage from './components/LandingPage'

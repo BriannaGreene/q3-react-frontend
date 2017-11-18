@@ -16,11 +16,7 @@ body, html {
   padding-top: 20px;
 }
 
-.header-left {
-  border: black solid 1px;
-}
-
-.header-right {
+.border {
   border: black solid 1px;
 }
 
@@ -41,15 +37,10 @@ body, html {
 .search-form {
   padding-top: 20px;
   padding-bottom: 20px;
-  border: solid black 1px;
 }
 
 .search-bar {
   width: 70%;
-}
-
-.buttons-container {
-  border: solid black 1px;
 }
 
 .btn-recent {
@@ -59,7 +50,6 @@ body, html {
 .data-container {
   margin-top: 50px;
   margin-bottom: 50px;
-  border: solid black 1px;
   height: auto;
   width: auto;
 }

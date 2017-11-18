@@ -7,11 +7,11 @@ const Header = () => {
   return (
     <div className="container-fluid header-nav">
       <div className="container d-flex justify-content-between">
-        <div className="header-left flex-row">
+        <div className="header-left flex-row border">
           <h1 className="logo-text">LocalEyesr</h1>
           <h5 className="logo-sub-text">Discover Colorado with Data Visualization</h5>
         </div>
-        <div className="header-right flex-row">
+        <div className="header-right flex-row border">
           {/* create if or statement */}
           <LoginButton />
           <LogoutButton />
