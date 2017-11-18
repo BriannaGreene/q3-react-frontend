@@ -1,5 +1,6 @@
 import React from 'react'
 import Data1 from './data-components/Data1'
+import Data2 from './data-components/Data2'
 
 const Data = () => {
 
@@ -19,8 +20,9 @@ const Data = () => {
             <li><a href="./data-components/Data1">Separated link</a></li>
           </ul>
         </div>
-
-        <Data1 />
+        {/* dynamically change data display */}
+        {/* <Data1 /> */}
+        <Data2 />
       </div>
     </div>
   )
