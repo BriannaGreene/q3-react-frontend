@@ -16,7 +16,7 @@ body, html {
   padding-top: 20px;
 }
 
-.border {
+.borderbox {
   border: black solid 1px;
 }
 
@@ -59,4 +59,9 @@ body, html {
   height: 200px;
   color: white;
   padding-top: 20px;
+}
+
+.data-image {
+  min-height: 500px;
+  min-width: 500px;
 }

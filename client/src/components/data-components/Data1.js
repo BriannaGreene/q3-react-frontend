@@ -5,9 +5,9 @@ import React from 'react'
 const Data1 = () => {
 
   return (
-    <div>
+    <div className="container borderbox">
       <h1>Hello Data</h1>
-      <img src="../../../public/images/co-pop-full.png" alt="pop map" />
+      <img className="data-image borderbox" src="./images/co-pop-full.png" alt="pop map" />
     </div>
 
   )
