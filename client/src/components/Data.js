@@ -8,7 +8,7 @@ const Data = () => {
       <div className="data-container borderbox">
         <div className="dropdown">
           <button className="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Dropdown
+            What Data Would You Like to Display:
             <span className="caret"></span>
           </button>
           <ul className="dropdown-menu" aria-labelledby="dropdownMenu1">

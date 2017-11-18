@@ -11,9 +11,9 @@ const Header = () => {
           <h1 className="logo-text">LocalEyesr</h1>
           <h5 className="logo-sub-text">Discover Colorado with Data Visualization</h5>
         </div>
-        <div className="header-right flex-row borderbox">
+        <div className="header-right row align-items-center borderbox">
           {/* create if or statement */}
-          <LoginButton />
+          {/* <LoginButton /> */}
           <LogoutButton />
         </div>
       </div>

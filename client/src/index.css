@@ -43,12 +43,16 @@ body, html {
   width: 70%;
 }
 
+#search-button {
+  margin-left: 20px;
+}
+
 .btn-recent {
   margin-right: 20px;
 }
 
 .data-container {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 50px;
   height: auto;
   width: auto;
@@ -64,4 +68,14 @@ body, html {
 .data-image {
   min-height: 500px;
   min-width: 500px;
+  max-height: 700px;
+}
+
+.dropdown {
+  padding-bottom: 20px;
+}
+
+.dropdown-toggle {
+  background-color: orange;
+  color: white;
 }

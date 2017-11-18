@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const Data1 = () => {
+const Data2 = () => {
 
   return (
     <div className="container borderbox">
@@ -17,4 +17,4 @@ const Data1 = () => {
 
 }
 
-export default Data1
+export default Data2

@@ -16,7 +16,7 @@ const Search = ({ messages, searchList }) => {
       <form className="d-flex search-form borderbox">
         <input className="form-control search-bar" placeholder="Search"/>
         {/* <input className="form-control" placeholder="Search" onChange={filteredList}/> */}
-        <button className="btn">Search</button>
+        <button id="search-button" className="btn">Search</button>
       </form>
     </div>
   )
