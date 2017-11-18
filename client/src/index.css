@@ -2,6 +2,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  height: 100%;
 }
 
 .container-fluid {
@@ -38,7 +39,9 @@ body, html {
 }
 
 .search-form {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid black 1px;
 }
 
 .search-bar {
@@ -51,4 +54,19 @@ body, html {
 
 .btn-recent {
   margin-right: 20px;
+}
+
+.data-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid black 1px;
+  height: auto;
+  width: auto;
+}
+
+.footer {
+  background-color: lightgrey;
+  height: 200px;
+  color: white;
+  padding-top: 20px;
 }

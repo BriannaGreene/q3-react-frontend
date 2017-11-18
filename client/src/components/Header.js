@@ -1,6 +1,6 @@
 import React from 'react'
-import LoginButton from './LoginButton'
-import LogoutButton from './LogoutButton'
+import LoginButton from './sub-sections/LoginButton'
+import LogoutButton from './sub-sections/LogoutButton'
 
 const Header = () => {
 

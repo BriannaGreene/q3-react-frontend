@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import Data1 from './components/Data1'
+import Data from './components/Data'
 import Header from './components/Header'
-import Toolbar from './components/Toolbar'
+import Dashboard from './components/Dashboard'
+import LandingPage from './components/LandingPage'
+import Footer from './components/Footer'
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -11,7 +13,10 @@ class App extends Component {
       <div className="container-fluid">
         <Header />
         {/* if or statement to check it login in state is true */}
-        <Toolbar />
+        {/* <LandingPage /> */}
+        {/* OR */}
+        <Dashboard />
+        <Footer />
       </div>
     );
   }
