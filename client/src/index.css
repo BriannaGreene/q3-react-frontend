@@ -31,3 +31,24 @@ body, html {
   color: white;
   font-size: 18px;
 }
+
+.toolbar {
+  background-color: lightgrey;
+  height: 130px;
+}
+
+.search-form {
+  padding: 20px;
+}
+
+.search-bar {
+  width: 70%;
+}
+
+.buttons-container {
+  border: solid black 1px;
+}
+
+.btn-recent {
+  margin-right: 20px;
+}
