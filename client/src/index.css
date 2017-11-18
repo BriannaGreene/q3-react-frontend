@@ -1,0 +1,33 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-nav {
+  background-color: orange;
+  height: 120px;
+  padding-top: 20px;
+}
+
+.header-left {
+  border: black solid 1px;
+}
+
+.header-right {
+  border: black solid 1px;
+}
+
+.logo-text {
+  color: white;
+}
+
+.logo-sub-text {
+  color: white;
+  font-size: 18px;
+}
